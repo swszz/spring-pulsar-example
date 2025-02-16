@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.spring.dependency.management) apply true
 }
 
-group = "org.github.swszz"
+group = "org.github.swszz.pulsar"
 version = "0.1.0"
 
 java {
@@ -27,6 +27,7 @@ dependencies {
     implementation(libs.kotlin.coroutines.core)
 
     implementation(libs.spring.boot.starter)
+    implementation(libs.spring.boot.starter.pulsar)
     implementation(libs.spring.boot.starter.web)
     implementation(libs.spring.boot.starter.test)
 

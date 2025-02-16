@@ -2,3 +2,11 @@ spring:
   threads:
     virtual:
       enabled: true
+  pulsar:
+    defaults:
+      type-mappings:
+        - message-type: org.github.swszz.pulsar.Member
+          schema-info:
+            schema-type: JSON
+server:
+  port: 8081

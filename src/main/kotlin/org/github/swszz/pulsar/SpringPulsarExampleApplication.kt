@@ -1,14 +1,14 @@
-package org.github.swszz
+package org.github.swszz.pulsar
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-internal class SpringBootTemplateApplication {
+internal class SpringPulsarExampleApplication {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            runApplication<SpringBootTemplateApplication>(*args)
+            runApplication<SpringPulsarExampleApplication>(*args)
         }
     }
 }

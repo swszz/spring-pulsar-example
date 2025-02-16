@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.0.20"
 kotlin-coroutine = "1.9.0"
-spring-boot = "3.3.3"
+spring-boot = "3.4.2"
 spring-dependency-management = "1.1.6"
 junit = "5.11.0"
 junit-platform = "1.11.2"
@@ -21,6 +21,7 @@ kotlin-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-co
 kotlin-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlin-coroutine" }
 
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
+spring-boot-starter-pulsar = { module = "org.springframework.boot:spring-boot-starter-pulsar" }
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }
 
@@ -30,3 +31,4 @@ junit-engine-jupiter = { module = "org.junit.jupiter:junit-jupiter-engine", vers
 junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
 assertj = { module = "org.assertj:assertj-core", version.ref = "assert4j" }
+
